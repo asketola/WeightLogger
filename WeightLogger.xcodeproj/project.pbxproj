@@ -13,6 +13,7 @@
 		79FBD53B1AC11C5A0021FB3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FBD53A1AC11C5A0021FB3F /* Images.xcassets */; };
 		79FBD53E1AC11C5A0021FB3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79FBD53C1AC11C5A0021FB3F /* LaunchScreen.xib */; };
 		79FBD54A1AC11C5A0021FB3F /* WeightLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FBD5491AC11C5A0021FB3F /* WeightLoggerTests.swift */; };
+		79FBD5541AC1201D0021FB3F /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FBD5531AC1201D0021FB3F /* DataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		79FBD5431AC11C5A0021FB3F /* WeightLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FBD5481AC11C5A0021FB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79FBD5491AC11C5A0021FB3F /* WeightLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLoggerTests.swift; sourceTree = "<group>"; };
+		79FBD5531AC1201D0021FB3F /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				79FBD5331AC11C5A0021FB3F /* AppDelegate.swift */,
 				79FBD5351AC11C5A0021FB3F /* ViewController.swift */,
 				79FBD5371AC11C5A0021FB3F /* Main.storyboard */,
+				79FBD5531AC1201D0021FB3F /* DataViewController.swift */,
 				79FBD53A1AC11C5A0021FB3F /* Images.xcassets */,
 				79FBD53C1AC11C5A0021FB3F /* LaunchScreen.xib */,
 				79FBD5311AC11C5A0021FB3F /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79FBD5361AC11C5A0021FB3F /* ViewController.swift in Sources */,
+				79FBD5541AC1201D0021FB3F /* DataViewController.swift in Sources */,
 				79FBD5341AC11C5A0021FB3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
